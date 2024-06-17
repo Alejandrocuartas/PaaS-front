@@ -57,6 +57,8 @@ const CreateAppForm = ({ onClose }: { onClose: () => void }) => {
 
 
             <p className="text-blue-800">Remember the repository URL have to be public and https</p>
+            <br />
+            <p className="text-blue-800">The app is going to run <span className="font-bold">npm install</span > && <span className="font-bold">npm run build</span> to build the app</p>
 
             <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
                 <input type="hidden" name="remember" value="true" />
