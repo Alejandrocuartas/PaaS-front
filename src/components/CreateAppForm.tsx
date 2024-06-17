@@ -53,10 +53,10 @@ const CreateAppForm = ({ onClose }: { onClose: () => void }) => {
         <div className='bg-white rounded-lg p-4'>
 
 
-            <h2 className="text-xl font-extrabold mb-4">Deploy An App</h2>
+            <h2 className="text-xl font-extrabold mb-4 text-blue-800">Deploy Your React.js App</h2>
 
 
-            <p>Remember the repository must be public and https</p>
+            <p className="text-blue-800">Remember the repository URL have to be public and https</p>
 
             <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
                 <input type="hidden" name="remember" value="true" />
